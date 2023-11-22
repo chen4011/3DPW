@@ -26,7 +26,7 @@ if __name__ == '__main__':
     img_datasetDir = r'/home/chenpc/exp_3DPW/imageFiles'
     file = os.path.join(seq_datasetDir,seq_name+'.pkl')
     seq = pkl.load(open(file,'rb'), encoding='latin1')
-    print(seq['v_template_clothed'])
+    # print(seq['v_template_clothed'])
 
     models = list()
     for iModel in range(0,len(seq['v_template_clothed'])):

@@ -13,7 +13,7 @@ The folder sequenceFiles provides synchronized motion data and SMPL model parame
 - trans_60Hz: tranlations for each actor at 60Hz (List of Nx3 root translations)
 - betas_clothed: SMPL shape parameters for each clothed actor (List of 10x1 SMPL beta parameters)
 - v_template_clothed: 
-- gender: actor genders (List of strings, either 'm' or 'f')
+- genders: actor genders (List of strings, either 'm' or 'f')
 - texture_maps: texture maps for each actor
 - poses2D: 2D joint detections in Coco-Format for each actor (only provided if at least 6 joints were detected correctly)
 - jointPositions: 3D joint positions of each actor (List of Nx(24*3) XYZ coordinates of each SMPL joint)
